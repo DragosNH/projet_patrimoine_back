@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "c35257c1-2747-4c42-bfe4-ba376ea3f2cf",
+		"name": "App test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43682250",
+		"_collection_link": "https://dragosenache.postman.co/workspace/Dragos-ENACHE's-Workspace~00e8d060-567e-46a3-8752-37203f34edb1/collection/43682250-c35257c1-2747-4c42-bfe4-ba376ea3f2cf?action=share&source=collection_link&creator=43682250"
+	},
+	"item": [
+		{
+			"name": "User sign up",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"first_name\": \"Dragoş\",\r\n  \"last_name\": \"Enache\",\r\n  \"username\": \"dragos\",\r\n  \"email\": \"edragos33@gmail.com\",\r\n  \"password\": \"secret123\",\r\n  \"confirm_password\": \"secret123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/signup/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"signup",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"dragos\",\r\n  \"password\": \"secret123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/token/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"token",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "check security",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

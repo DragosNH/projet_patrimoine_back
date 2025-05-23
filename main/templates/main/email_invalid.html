@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Vérifié</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #FAFAFA;
+            color: #715D4C;
+            text-align: center;
+            font-family: "Montserrat", sans-serif;
+        }
+        .logo{
+            width: 250px;
+        }
+        .title{
+            color: #A31D1D;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="title">Vérification échouée !</h1>
+    <p>Nous sommes désolés, mais une erreur s'est produite lors de la confirmation de votre adresse e-mail. Nous vous conseillons de réessayer l'inscription. Sinon, n'hésitez pas à nous contacter par mail.<br><strong>L'équipe Patrimoine en jeu</strong></p>
+
+    <img class="logo" src="{% static 'main/img/logo.png' %}" alt="Logo patrimoine en jeu">
+    
+</body>
+</html>
