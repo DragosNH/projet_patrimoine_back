@@ -31,5 +31,5 @@ class ConstructionAdmin(admin.ModelAdmin):
 
 @admin.register(Model3D)
 class Model3DAdmin(admin.ModelAdmin):
-    list_display = ('name', 'construction', 'latitude', 'longitude', 'altitude', 'uploaded')
+    list_display = ('id', 'name', 'construction', 'latitude', 'longitude', 'altitude', 'uploaded')
     list_filter  = ('construction',)
