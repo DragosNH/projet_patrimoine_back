@@ -18,6 +18,7 @@ from .views import (
 
 router = DefaultRouter()
 router.register(r'models', Model3DViewSet, basename='model3d')
+router.register(r'attic-skeletons', AtticSkeletonViewSet)
 
 urlpatterns = [
     path('', views.hello),
