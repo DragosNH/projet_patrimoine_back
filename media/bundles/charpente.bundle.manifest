@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.44f1
+CRC: 3521408855
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 15415e3a4778f1b82321f82ded0df61c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d09b92296f2caa0222796a41c2defd69
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: c1ebcb671d15f9bf08af9b1f37a9c6fc
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/3D Models/charpente Habsheim.fbx
+Dependencies: []
