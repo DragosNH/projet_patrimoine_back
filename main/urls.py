@@ -7,6 +7,7 @@ from django.views.generic import TemplateView
 from .views import Model3DViewSet
 from rest_framework.routers import DefaultRouter
 from .views import Model3DDownloadView
+from .views import AtticSkeletonViewSet
 
 from . import views
 from . import views

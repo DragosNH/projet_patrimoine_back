@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Construction, Model3D
+from .models import Construction, Model3D, AtticSkeleton
 from django.contrib.auth import get_user_model
 
 User = get_user_model()
@@ -54,3 +54,8 @@ class Model3DSerializer(serializers.ModelSerializer):
     def get_file(self, obj):
         request = self.context.get('request')
         return request.build_absolute_uri(obj.file.url)
+
+class AtticSkeletonSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = AtticSkeleton
+        fields = '__all__'
