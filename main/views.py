@@ -4,8 +4,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-from .models import Construction, Model3D
-from .serializers import ConstructionSerializer, SignUpSerializer, Model3DSerializer
+from .models import Construction, Model3D, AtticSkeleton
+from .serializers import ConstructionSerializer, SignUpSerializer, Model3DSerializer, AtticSkeletonSerializer
 from . import serializers
 from rest_framework import status, viewsets
 from rest_framework.permissions import IsAuthenticated, IsAuthenticatedOrReadOnly
@@ -213,3 +213,7 @@ class Model3DDownloadView(APIView):
             content_type='application/octet-stream',
             headers={'Content-Disposition': f'attachment; filename="{m.file.name}"'}
         )
+
+class AtticSkeletonViewSet(viewsets.ModelViewSet):
+    queryset = AtticSkeleton.objects.all()
+    serializer_class = AtticSkeletonSerializer
