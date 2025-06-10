@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin
-from .models import CustomUser, Construction, Model3D
+from .models import CustomUser, Construction, Model3D, AtticSkeleton
 
 class CustomUserAdmin(UserAdmin):
     model = CustomUser
@@ -33,3 +33,5 @@ class ConstructionAdmin(admin.ModelAdmin):
 class Model3DAdmin(admin.ModelAdmin):
     list_display = ('id', 'name', 'construction', 'latitude', 'longitude', 'altitude', 'uploaded')
     list_filter  = ('construction',)
+
+admin.site.register(AtticSkeleton)
