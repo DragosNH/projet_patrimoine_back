@@ -86,3 +86,7 @@ class Model3D(models.Model):
 
     def __str__(self):
         return f"{self.name} @ ({self.latitude}, {self.longitude})"
+
+class AtticSkeleton(models.Model):
+    name = models.CharField(max_length=100)
+    file = models.FileField(upload_to='attic_skeleton/')
