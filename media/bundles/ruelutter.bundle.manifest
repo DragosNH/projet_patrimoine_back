@@ -1,16 +1,16 @@
 ManifestFileVersion: 0
 UnityVersion: 6000.0.44f1
-CRC: 859801438
+CRC: 1632162698
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: eabd441edc516e3405b33125858eded3
+    Hash: 62a5012ab5b5635cff413399daa1ae3a
   TypeTreeHash:
     serializedVersion: 2
     Hash: d09b92296f2caa0222796a41c2defd69
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: c53f8d6ce204a77f82662f2a483be614
+    Hash: 8583a50831633aa4cecbdf83143a55db
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -29,5 +29,5 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/3D Models/rue Lutter2.fbx
+- Assets/3D Models/rue Lutter2b.fbx
 Dependencies: []

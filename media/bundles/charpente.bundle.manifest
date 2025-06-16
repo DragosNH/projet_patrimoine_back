@@ -1,21 +1,23 @@
 ManifestFileVersion: 0
 UnityVersion: 6000.0.44f1
-CRC: 3521408855
+CRC: 3881374587
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 15415e3a4778f1b82321f82ded0df61c
+    Hash: 2657b1a7b2a21cd37d1b80c48a772b15
   TypeTreeHash:
     serializedVersion: 2
-    Hash: d09b92296f2caa0222796a41c2defd69
+    Hash: fa474bf9f5506240b22e2d634b6c0954
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: c1ebcb671d15f9bf08af9b1f37a9c6fc
+    Hash: 97b289fc505e8343c32ad0b9d07b8cdb
 HashAppended: 0
 ClassTypes:
 - Class: 1
   Script: {instanceID: 0}
 - Class: 4
+  Script: {instanceID: 0}
+- Class: 20
   Script: {instanceID: 0}
 - Class: 21
   Script: {instanceID: 0}
@@ -27,7 +29,17 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 48
   Script: {instanceID: 0}
-SerializeReferenceClassIdentifiers: []
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Rendering.Universal.TemporalAA/Settings
 Assets:
-- Assets/3D Models/charpente Habsheim.fbx
+- Assets/3D Models/Charpente.fbx
 Dependencies: []
